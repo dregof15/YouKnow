@@ -12,7 +12,7 @@ public class MagneticField : MonoBehaviour
     float time = 0; // 게임 시작후 다음 자기장까지의 시간
     public Text MFcount; // 다음 자기장 까지의 시간 표시
     GameObject player = null;
-    
+    // 2020 - 05 - 18   PM 11:17
     void Start()
     {
         r1 = 2000f; // 시작할때 자기장 크기
